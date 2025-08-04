@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { MailIcon, PhoneIcon, MapPinIcon, LinkedinIcon, GithubIcon, TwitterIcon } from 'lucide-react'
+import { MailIcon, PhoneIcon, MapPinIcon, LinkedinIcon, GithubIcon } from 'lucide-react'
 
 const contactInfo = [
   {
     icon: MailIcon,
     label: 'Email',
     value: 'krishkumar7727@gmail.com',
-    href: 'mailto:krish.kumar@example.com'
+    href: 'mailto:krishkumar7727@gmail.com'
   },
   {
     icon: PhoneIcon,
@@ -30,25 +30,20 @@ const socialLinks = [
   {
     icon: LinkedinIcon,
     label: 'LinkedIn',
-    href: '#',
+    href: 'https://www.linkedin.com/in/krish-kumar70/',
     color: 'hover:text-blue-500'
   },
   {
     icon: GithubIcon,
     label: 'GitHub',
-    href: '#',
+    href: 'https://github.com/Krish7789',
     color: 'hover:text-gray-400'
   },
-  {
-    icon: TwitterIcon,
-    label: 'Twitter',
-    href: '#',
-    color: 'hover:text-blue-400'
-  },
+ 
   {
     icon: MailIcon,
     label: 'Email',
-    href: 'mailto:krish.kumar@example.com',
+    href: 'mailto:krishkumar7727@gmail.com',
     color: 'hover:text-primary'
   }
 ]
@@ -302,7 +297,7 @@ export function Contact() {
                   size="lg"
                   asChild
                 >
-                  <a href="mailto:krish.kumar@example.com">
+                  <a href="mailto:krishkumar7727@gmail.com">
                     Start a Conversation
                   </a>
                 </Button>

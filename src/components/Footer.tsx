@@ -75,16 +75,16 @@ export function Footer() {
                   href="mailto:krish.kumar@example.com"
                   className="block text-muted-foreground hover:text-primary transition-colors duration-300"
                 >
-                  krish.kumar@example.com
+                  krishkumar7727@gmail.com
                 </a>
                 <a
                   href="tel:+919999999999"
                   className="block text-muted-foreground hover:text-primary transition-colors duration-300"
                 >
-                  +91 99999 99999
+                  +91 6284594778
                 </a>
                 <span className="block text-muted-foreground">
-                  Phagwara, Punjab, India
+                  Jalandhar, Punjab, India
                 </span>
               </div>
             </motion.div>
