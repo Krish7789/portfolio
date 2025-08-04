@@ -7,7 +7,7 @@ const skillCategories = [
     skills: [
       { name: 'React', level: 90, color: 'from-blue-500 to-cyan-500' },
       { name: 'TypeScript', level: 85, color: 'from-blue-600 to-blue-800' },
-      { name: 'Next.js', level: 80, color: 'from-gray-800 to-black' },
+      { name: 'JavaScript', level: 80, color: 'from-gray-600 to-white' },
       { name: 'Tailwind CSS', level: 95, color: 'from-teal-400 to-blue-500' },
       { name: 'HTML/CSS', level: 95, color: 'from-orange-500 to-red-500' }
     ]
@@ -16,10 +16,10 @@ const skillCategories = [
     title: 'Backend Development',
     skills: [
       { name: 'Node.js', level: 85, color: 'from-green-500 to-green-700' },
-      { name: 'Python', level: 80, color: 'from-yellow-400 to-yellow-600' },
-      { name: 'Express.js', level: 85, color: 'from-gray-600 to-gray-800' },
+      { name: 'Python', level: 60, color: 'from-yellow-400 to-yellow-600' },
+      { name: 'Express.js', level: 60, color: 'from-gray-600 to-white' },
       { name: 'REST APIs', level: 90, color: 'from-purple-500 to-purple-700' },
-      { name: 'GraphQL', level: 75, color: 'from-pink-500 to-rose-500' }
+      { name: 'GraphQL', level: 60, color: 'from-pink-500 to-rose-500' }
     ]
   },
   {
@@ -28,7 +28,6 @@ const skillCategories = [
       { name: 'MongoDB', level: 85, color: 'from-green-600 to-green-800' },
       { name: 'PostgreSQL', level: 80, color: 'from-blue-700 to-indigo-700' },
       { name: 'AWS', level: 75, color: 'from-orange-400 to-orange-600' },
-      { name: 'Docker', level: 80, color: 'from-blue-500 to-blue-700' },
       { name: 'Firebase', level: 85, color: 'from-yellow-500 to-orange-500' }
     ]
   },
@@ -37,7 +36,6 @@ const skillCategories = [
     skills: [
       { name: 'Machine Learning', level: 80, color: 'from-purple-600 to-purple-800' },
       { name: 'Data Analysis', level: 85, color: 'from-indigo-500 to-purple-600' },
-      { name: 'TensorFlow', level: 75, color: 'from-orange-500 to-red-600' },
       { name: 'Pandas', level: 80, color: 'from-blue-400 to-blue-600' },
       { name: 'Jupyter', level: 85, color: 'from-orange-400 to-orange-600' }
     ]

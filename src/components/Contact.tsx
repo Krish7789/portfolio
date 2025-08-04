@@ -9,19 +9,19 @@ const contactInfo = [
   {
     icon: MailIcon,
     label: 'Email',
-    value: 'krish.kumar@example.com',
+    value: 'krishkumar7727@gmail.com',
     href: 'mailto:krish.kumar@example.com'
   },
   {
     icon: PhoneIcon,
     label: 'Phone',
-    value: '+91 99999 99999',
+    value: '+91 6284594778',
     href: 'tel:+919999999999'
   },
   {
     icon: MapPinIcon,
     label: 'Location',
-    value: 'Phagwara, Punjab, India',
+    value: 'Jalandhar, Punjab, India',
     href: '#'
   }
 ]

@@ -149,6 +149,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
               className="relative flex justify-center"
+             
             >
               {/* Floating Elements */}
               <div className="relative">
@@ -171,7 +172,7 @@ export function Hero() {
                   {/* Avatar Background */}
                   <div className="relative w-full h-full rounded-full bg-gradient-primary p-1">
                     <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-8xl font-bold gradient-text">
-                      KK
+                      <img src=''></img>
                     </div>
                   </div>
                 </motion.div>
