@@ -10,11 +10,12 @@ import {
 import krishAvatar from "../assets/krishAvatar.jpg";
 
 const roles = [
+  "Final Year CSE Student",
   "Full-Stack Developer",
   "AI Enthusiast",
   "Cloud Technology Explorer",
   "Data Analyst",
-  "CSE Graduate",
+  
 ];
 
 export function Hero() {
