@@ -26,7 +26,7 @@ const skillCategories = [
     title: 'Database & Cloud',
     skills: [
       { name: 'MongoDB', level: 60, color: 'from-green-600 to-green-800' },
-      { name: 'PostgreSQL', level: 80, color: 'from-blue-700 to-indigo-700' },
+      { name: 'MySQL', level: 80, color: 'from-blue-700 to-indigo-700' },
       { name: 'AWS', level: 75, color: 'from-orange-400 to-orange-600' },
       { name: 'Firebase', level: 85, color: 'from-yellow-500 to-orange-500' }
     ]
