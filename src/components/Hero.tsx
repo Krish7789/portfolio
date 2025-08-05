@@ -132,30 +132,48 @@ export function Hero() {
 
               {/* Social Links */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.7 }}
-                className="flex space-x-4 pt-4"
-              >
-                {[
-                  { icon: GithubIcon, href: "#", label: "GitHub" },
-                  { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
-                  { icon: MailIcon, href: "#", label: "Email" },
-                ].map((social, index) => (
-                  <motion.a
-                    key={social.label}
-                    href={social.href}
-                    className="p-3 rounded-lg glass hover:bg-white/10 transition-all duration-300 group"
-                    whileHover={{ scale: 1.1, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 0.8 + index * 0.1 }}
-                  >
-                    <social.icon className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
-                  </motion.a>
-                ))}
-              </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7 }}
+  className="flex space-x-4 pt-4 z-10"
+>
+  {[
+    {
+      icon: GithubIcon,
+      href: "https://github.com/Krish7789",
+      label: "GitHub",
+    },
+    {
+      icon: LinkedinIcon,
+      href: "https://www.linkedin.com/in/krish-kumar70/",
+      label: "LinkedIn",
+    },
+    {
+      icon: MailIcon,
+      href: "mailto:krishkumar7727@gmail.com",
+      label: "Email",
+    },
+  ].map((social, index) => {
+    const Icon = social.icon;
+    return (
+      <motion.a
+        key={social.label}
+        href={social.href}
+        target={social.href.startsWith("http") ? "_blank" : undefined}
+        rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
+        className="p-3 rounded-lg glass hover:bg-white/10 transition-all duration-300 group z-20"
+        whileHover={{ scale: 1.1, y: -2 }}
+        whileTap={{ scale: 0.95 }}
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.8 + index * 0.1 }}
+      >
+        <Icon className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
+      </motion.a>
+    );
+  })}
+</motion.div>
+
             </motion.div>
 
             {/* Right Content - 3D Avatar/Visual */}
