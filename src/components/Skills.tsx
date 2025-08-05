@@ -16,7 +16,7 @@ const skillCategories = [
     title: 'Backend Development',
     skills: [
       { name: 'Node.js', level: 85, color: 'from-green-500 to-green-700' },
-      { name: 'Python', level: 60, color: 'from-yellow-400 to-yellow-600' },
+      { name: 'Python', level: 70, color: 'from-yellow-400 to-yellow-600' },
       { name: 'Express.js', level: 60, color: 'from-gray-600 to-white' },
       { name: 'REST APIs', level: 90, color: 'from-purple-500 to-purple-700' },
       { name: 'GraphQL', level: 60, color: 'from-pink-500 to-rose-500' }
