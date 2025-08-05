@@ -15,7 +15,6 @@ const roles = [
   "AI Enthusiast",
   "Cloud Technology Explorer",
   "Data Analyst",
-  
 ];
 
 export function Hero() {

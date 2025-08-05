@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import ResumeKrish from '../assets/Resume Krish.pdf'
+import ResumeKrish from "../assets/Resume Krish.pdf";
 import {
   GraduationCapIcon,
   CodeIcon,
@@ -99,16 +99,25 @@ export function About() {
                 </p>
 
                 <div className="mt-8 flex gap-4">
-  <a href={ResumeKrish} download>
-    <Button variant="hero" size="lg">
-      Download Resume
-    </Button>
-  </a>
+                  <a href={ResumeKrish} download>
+                    <Button variant="hero" size="lg">
+                      Download Resume
+                    </Button>
+                  </a>
 
-  <Button variant="cyber" size="lg">
-    View Projects
-  </Button>
-</div>
+                  <Button
+                    variant="cyber"
+                    size="lg"
+                    className="group"
+                    onClick={() =>
+                      document
+                        .getElementById("projects")
+                        ?.scrollIntoView({ behavior: "smooth" })
+                    }
+                  >
+                    View Projects
+                  </Button>
+                </div>
               </div>
             </motion.div>
 
