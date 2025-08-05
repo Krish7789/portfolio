@@ -22,7 +22,7 @@ const certifications = [
     url: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS118S157020139104431399",
   },
   {
-    title: "Data Structures and Algorithms",
+    title: "Data Structures and Algorithms Using C and C++",
     issuer: "Udemy",
     date: "Feb 2024",
     url: "https://www.udemy.com/certificate/UC-f9d87e03-f2e7-4035-9432-2ac475b57322/",
