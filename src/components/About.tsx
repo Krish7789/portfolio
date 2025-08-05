@@ -1,44 +1,52 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/button'
-import { GraduationCapIcon, CodeIcon, BrainIcon, CloudIcon } from 'lucide-react'
+import React from "react";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import ResumeKrish from '../assets/Resume Krish.pdf'
+import {
+  GraduationCapIcon,
+  CodeIcon,
+  BrainIcon,
+  CloudIcon,
+} from "lucide-react";
 
 const stats = [
-  { number: '20+', label: 'Projects Completed' },
-  { number: '5+', label: 'Technologies Mastered' },
-  { number: '100%', label: 'Commitment Level' },
-  { number: '24/7', label: 'Learning Mode' }
-]
+  { number: "20+", label: "Projects Completed" },
+  { number: "5+", label: "Technologies Mastered" },
+  { number: "100%", label: "Commitment Level" },
+  { number: "24/7", label: "Learning Mode" },
+];
 
 const highlights = [
   {
     icon: GraduationCapIcon,
-    title: 'Education',
-    description: 'B.Tech in Computer Science & Engineering from Lovely Professional University, Phagwara'
+    title: "Education",
+    description:
+      "B.Tech in Computer Science & Engineering from Lovely Professional University, Phagwara",
   },
   {
     icon: CodeIcon,
-    title: 'Development',
-    description: 'Full-stack development with modern frameworks and technologies'
+    title: "Development",
+    description:
+      "Full-stack development with modern frameworks and technologies",
   },
   {
     icon: BrainIcon,
-    title: 'AI & ML',
-    description: 'Passionate about artificial intelligence and machine learning applications'
+    title: "AI & ML",
+    description:
+      "Passionate about artificial intelligence and machine learning applications",
   },
   {
     icon: CloudIcon,
-    title: 'Cloud Computing',
-    description: 'Experience with cloud platforms and scalable architecture'
-  }
-]
+    title: "Cloud Computing",
+    description: "Experience with cloud platforms and scalable architecture",
+  },
+];
 
 export function About() {
   return (
     <section id="about" className="py-20 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          
           {/* Section Header */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -51,13 +59,13 @@ export function About() {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate about building innovative solutions that make a real-world difference
+              Passionate about building innovative solutions that make a
+              real-world difference
             </p>
           </motion.div>
 
           {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-            
             {/* Left Content */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -71,29 +79,36 @@ export function About() {
                   Hi, I'm Krish Kumar
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  A passionate Computer Science student from Lovely Professional University, Phagwara, 
-                  specializing in cutting-edge technologies. I'm deeply committed to building innovative 
-                  and scalable applications that solve real-world problems through technology.
+                  A passionate Computer Science student from Lovely Professional
+                  University, Phagwara, specializing in cutting-edge
+                  technologies. I'm deeply committed to building innovative and
+                  scalable applications that solve real-world problems through
+                  technology.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  With a strong analytical mindset and a love for clean, efficient code, I strive to 
-                  create solutions that make a meaningful impact. Currently pursuing my B.Tech in 
-                  Computer Science & Engineering while constantly honing my skills in emerging technologies.
+                  With a strong analytical mindset and a love for clean,
+                  efficient code, I strive to create solutions that make a
+                  meaningful impact. Currently pursuing my B.Tech in Computer
+                  Science & Engineering while constantly honing my skills in
+                  emerging technologies.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm driven by curiosity, innovation, and a desire to build solutions that make a 
-                  real-world difference. Always eager to learn new technologies and contribute to 
-                  impactful projects.
+                  I'm driven by curiosity, innovation, and a desire to build
+                  solutions that make a real-world difference. Always eager to
+                  learn new technologies and contribute to impactful projects.
                 </p>
-                
+
                 <div className="mt-8 flex gap-4">
-                  <Button variant="hero" size="lg">
-                    Download Resume
-                  </Button>
-                  <Button variant="cyber" size="lg">
-                    View Projects
-                  </Button>
-                </div>
+  <a href={ResumeKrish} download>
+    <Button variant="hero" size="lg">
+      Download Resume
+    </Button>
+  </a>
+
+  <Button variant="cyber" size="lg">
+    View Projects
+  </Button>
+</div>
               </div>
             </motion.div>
 
@@ -128,13 +143,15 @@ export function About() {
 
               {/* Specializations */}
               <div className="space-y-4">
-                <h4 className="text-xl font-heading font-semibold">Specializations</h4>
+                <h4 className="text-xl font-heading font-semibold">
+                  Specializations
+                </h4>
                 <div className="space-y-3">
                   {[
-                    'Full-Stack Development',
-                    'Artificial Intelligence',
-                    'Cloud Computing',
-                    'Data Analysis'
+                    "Full-Stack Development",
+                    "Artificial Intelligence",
+                    "Cloud Computing",
+                    "Data Analysis",
                   ].map((spec, index) => (
                     <motion.div
                       key={spec}
@@ -191,5 +208,5 @@ export function About() {
       <div className="absolute top-20 right-10 w-32 h-32 bg-gradient-primary rounded-full blur-3xl opacity-10 animate-float"></div>
       <div className="absolute bottom-20 left-10 w-24 h-24 bg-gradient-secondary rounded-full blur-2xl opacity-10 animate-float-delayed"></div>
     </section>
-  )
+  );
 }
