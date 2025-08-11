@@ -7,26 +7,26 @@ const skillCategories = [
     skills: [
       { name: 'React', level: 90, color: 'from-blue-500 to-cyan-500' },
       { name: 'TypeScript', level: 85, color: 'from-blue-600 to-blue-800' },
-      { name: 'JavaScript', level: 80, color: 'from-gray-600 to-white' },
-      { name: 'Tailwind CSS', level: 95, color: 'from-teal-400 to-blue-500' },
+      { name: 'JavaScript', level: 95, color: 'from-gray-600 to-white' },
+      { name: 'Tailwind CSS', level: 85, color: 'from-teal-400 to-blue-500' },
       { name: 'HTML/CSS', level: 95, color: 'from-orange-500 to-red-500' }
     ]
   },
   {
     title: 'Backend Development',
     skills: [
-      { name: 'Node.js', level: 85, color: 'from-green-500 to-green-700' },
-      { name: 'Python', level: 70, color: 'from-yellow-400 to-yellow-600' },
-      { name: 'Express.js', level: 60, color: 'from-gray-600 to-white' },
+      { name: 'Node.js', level: 90, color: 'from-green-500 to-green-700' },
+      { name: 'Python', level: 80, color: 'from-yellow-400 to-yellow-600' },
+      { name: 'Express.js', level: 90, color: 'from-gray-600 to-white' },
       { name: 'REST APIs', level: 90, color: 'from-purple-500 to-purple-700' },
-      { name: 'GraphQL', level: 60, color: 'from-pink-500 to-rose-500' }
+      { name: 'GraphQL', level: 70, color: 'from-pink-500 to-rose-500' }
     ]
   },
   {
     title: 'Database & Cloud',
     skills: [
-      { name: 'MongoDB', level: 60, color: 'from-green-600 to-green-800' },
-      { name: 'MySQL', level: 80, color: 'from-blue-700 to-indigo-700' },
+      { name: 'MongoDB', level: 90, color: 'from-green-600 to-green-800' },
+      { name: 'MySQL', level: 85, color: 'from-blue-700 to-indigo-700' },
       { name: 'AWS', level: 75, color: 'from-orange-400 to-orange-600' },
       { name: 'Firebase', level: 85, color: 'from-yellow-500 to-orange-500' }
     ]
