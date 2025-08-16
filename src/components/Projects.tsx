@@ -16,7 +16,7 @@ const projects = [
     image: smartLearn,
     tags: ["React", "Python", "AI/ML"],
     github: "https://github.com/Krish7789/Smart-Learn-Hub",
-    live: "https://college--buddy34.streamlit.app/",
+    live: "https://krish-edu-tech.streamlit.app/",
     featured: true,
   },
   {
